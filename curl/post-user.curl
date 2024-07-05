@@ -1,0 +1,4 @@
+url = http://localhost:5000/users/
+-X POST
+-d @post-user.data
+-H "Content-Type: application/json"
